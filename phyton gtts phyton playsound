@@ -2,7 +2,7 @@ from gtts import gTTS
 from playsound import playsound
 audio = 'speech.mp3'
 language = 'en'
-sp = gTTS(text = "hello Agita, start make Dmitrij massage please",
+sp = gTTS(text = "hello Agita, start making Dmitrij massage please",
           lang= language,slow=False)
 sp.save(audio)
 playsound(audio)
